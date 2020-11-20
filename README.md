@@ -17,6 +17,8 @@ This software extracts the extrinsic parameters of a camera mounted on the end-e
 
 The calibration script moves the robot end-effector to several positions where this board is visible and it takes pictures at each of those positions, detecting the center of the board in every picture. Using this information it fits a transformation between the end-effector position and the camera origin using singular value decomposition (SVD) to minimize the least-square error between the point sets, thus obtaining the extrinsic parameters of the current camera configuration. 
 
+<img src="/docs/camera_calibration.png" width="600">
+
 ## Software description
 
 Two main parts.
