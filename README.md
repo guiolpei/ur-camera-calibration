@@ -54,6 +54,10 @@ Run **calibrate.py** script on calibrating PC.
 
 ## Acknowledgments
 
+This calibration software was performed in collaboration with INESCOP Footwear Technological Institute (http://www.inescop.es). Polígono Industrial Campo Alto, Elda, Alicante (Spain).
+
+Method and source code inspired by:
+
 https://github.com/IntelRealSense/librealsense
 
 https://github.com/andyzeng/visual-pushing-grasping
